@@ -1,4 +1,5 @@
 FROM python:2.7-alpine
+LABEL MAINTAINER "Khwunchai Jaengsawang <khwunchai.j@ku.th>"
 
 COPY requirements.txt requirements.txt
 RUN apk --no-cache add --virtual=.build-dep \
